@@ -12,8 +12,7 @@ export function Login() {
     e.preventDefault();
     const isValid= usuarios.find(e => email === e.email && senha === e.senha);
     if(isValid){
-
-      navigate("/usuarios")
+      navigate("/home")
     }else{
       alert("Usuario não encontrado")
     }
