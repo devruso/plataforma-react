@@ -40,7 +40,7 @@ export function Login() {
       </Form> 
             </Card.Body>
             <Card.Footer className="text-muted">
-                <a href="#">Cadastre-se </a>
+                <a href="/">Cadastre-se </a>
             </Card.Footer>
         </Card>
       
